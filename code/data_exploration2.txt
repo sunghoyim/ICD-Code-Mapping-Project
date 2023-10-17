@@ -1,0 +1,27 @@
+# Number of unique patients:
+unique_nfer_pid = joined_table['NFER_PID'].nunique()
+print("The number of unique patients in the DataFrame is: ", unique_nfer_pid)
+
+The number of unique patients in the DataFrame is: 2257242
+
+# All Possible Values in DIAGNOSIS_METHOD_CODE column:
+joined_dmc_unique_values = joined_table['DIAGNOSIS_METHOD_CODE'].unique()
+print(joined_dmc_unique_values)
+
+# Group by UNIQUE patient: Number of patients in each diagnosis method code:
+
+# Group the DataFrame by DIAGNOSIS_METHOD_CODE and calculate the number of unique NFER_PID values
+count_by_code = joined_table.groupby('DIAGNOSIS_METHOD_CODE')['NFER_PID'].nunique()
+
+# Sort the count by code in descending order
+count_by_code = count_by_code.sort_values (ascending=False)
+print (count_by_code)
+
+DIAGNOSIS_METHOD_CODE
+ICD-10-CM 1960856
+ICD9 814941
+ICD-9-CM 744369
+ICD10 684147
+HIC 339842
+SNOMED CT 230448
+UNKNOWN 38271
