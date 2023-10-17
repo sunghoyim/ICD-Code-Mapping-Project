@@ -50,11 +50,39 @@ HIC 339842
 SNOMED CT 230448
 UNKNOWN 38271
 
-
-
-
-
-
-
-
-
+# Calculate the count by code
+count_by_code2 = joined_table['DIAGNOSIS METHOD_CODE'].value_counts()
+  
+# Calculate the count of unique patient IDs for each code
+unique_patients_by_code = joined_table.groupby( 'DIAGNOSIS_METHOD_CODE')['NFER_PID'].nunique()
+  
+# Calculate the percentage by dividing unique_patients_by_code by the sum of counts for all codes
+count_by_code_percentage (unique_patients_by_code / unique_patients_by_code.sum()) * 100
+  
+# Round the percentages to two decimal places
+count_by_code_percentage_rounded = count_by_code_percentage.round(1)
+  
+# Sort the results by percentage in descending order
+count_by_code_percentage_sorted = count_by_code_percentage_rounded.sort_values (ascending=False)
+  
+# Print the count by code as a percentage in descending order
+print(count_by_code_percentage_sorted)
+  
+DIAGNOSIS METHOD_CODE
+ICD-10-CM 40.4
+ICD9 16.8
+ICD-9-CM 15.3
+ICD10 14.1
+HIC 7.0
+SNOMED CT 4.7
+UNKNOWN 0.8
+Cerner 0.7
+FREETEXT_COMMENT 0.1
+MAYO: Problem Search Terminology 0.1
+Patient Care 0.0
+SNOMED International 0.0
+CPT4 0.0
+PNED 0.0
+DSM-IV-TR 0.0
+ICD-9-CM Ext-CP 0.0
+Name: NFER_PID, dtype: float64
