@@ -11,5 +11,21 @@ plt.title('Percentage of Unique Patients by Diagnosis Method Code')
 plt.legend (title="Legend", loc= "best")
 plt.axis ('equal')
 plt.legend (limited_labels, title="Legend", loc='upper left')
-  
+plt.show()
+
+# Convert timestamp_values_diagnosis to years
+timestamp_values_diagnosis_years = timestamp_values_diagnosis.dt.year
+
+# Calculate the minimum and maximum years
+min_year_diagnosis = timestamp_values_diagnosis_years.min() max_year_diagnosis = timestamp_values_diagnosis_years.max()
+
+# Calculate the number of bins for the histogram
+num_bins = round(max_year_diagnosis - min_year_diagnosis) + 1
+
+# Create a histogram of the diagnosis years
+plt.hist(timestamp_values_diagnosis_years, bins-num_bins, alpha=0.5, label='Diagnosis Dates')
+plt.xlabel('Years')
+plt.ylabel('Normalized Frequency')
+plt.title('Distribution of Diagnosis Dates')
+plt.legend()
 plt.show()
