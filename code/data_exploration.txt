@@ -1,0 +1,23 @@
+# Column Names:
+joined_table.columns
+
+Index (['NFER_PID', 'DIAGNOSIS_METHOD_CODE', 'COUNT_NFER_PID',
+'COUNT_DIAGNOSIS_METHOD_CODE', 'INACTIVE_DTM', 'AUTO_RESOLVE_DTM', 'ONSET DTM', 'NFER DTM', 'DIAGNOSIS DTM', 'DIAGNOSIS_CODE', 'DIAGNOSIS_DESCRIPTION'],
+dtype='object')
+
+# Number of null values under each variable:
+joined_table.isnull().sum (axis = 0)
+  
+# Descending order
+joined_table_null_counts = joined_table.isnull().sum().sort_values (ascending=False)
+print (joined_table_null_counts)
+  
+AUTO_RESOLVE_DTM 99237312
+INACTIVE_DTM 99188496
+ONSET_DTM 93003046
+DIAGNOSIS_DTM 114069
+NFER_DTM 114056
+DIAGNOSIS METHOD_CODE 40984
+DIAGNOSIS_CODE 35031
+DIAGNOSIS_DESCRIPTION 19
+NFER_PID 0
