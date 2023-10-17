@@ -1,6 +1,3 @@
-# MayoClinicIntern
-My Summer 2023 Data Science Internship at Mayo Clinic
-
 # Healthcare Code Mapping Project
 
 **Project Overview:**
