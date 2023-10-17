@@ -9,9 +9,6 @@ Welcome to the Healthcare Code Mapping Project conducted at Mayo Clinic Platform
 - [Methodology](#methodology)
 - [Results](#results)
 - [Discussion](#discussion)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 - [Conclusion](#conclusion)
 
@@ -44,18 +41,6 @@ The use of the FuzzyWuzzy algorithm has allowed us to achieve highly accurate di
 ## Discussion
 
 Our research underscores the importance of bridging the gap between ICD codes and SNOMED CT through the Concept Unique Identifier (CUI). This approach empowers data-driven healthcare informatics.
-
-## Usage
-
-This repository provides you access to the code and data used in our research project, offering insights into the mapping process. For detailed usage instructions, refer to the [USAGE.md](link-to-usage-file).
-
-## License
-
-This project is shared under the [MIT License](link-to-license). For the complete details, consult the [LICENSE](link-to-license) file.
-
-## Contributing
-
-We welcome contributions from the community. Before diving in, please review our [Contribution Guidelines](link-to-contribution-guidelines).
 
 ## Acknowledgments
 
