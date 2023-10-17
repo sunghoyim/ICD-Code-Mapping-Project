@@ -10,6 +10,9 @@
 - [Discussion](#discussion)
 - [Acknowledgments](#acknowledgments)
 - [Conclusion](#conclusion)
+- [Code](#code)
+- [Data](#data)
+- [Documentation](#documentation)
 
 ## Introduction
 In the world of healthcare, accurate diagnosis codes are the cornerstone of patient cohort identification and data-driven decisions. Our project focuses on mapping a variety of diagnosis codes to simplify patient identification and streamline data analysis.
@@ -44,3 +47,12 @@ This project was made possible by the collective efforts and support of these in
 
 ## Conclusion
 Efficient disease code mapping is essential for propelling the field of healthcare informatics, enabling comprehensive data analysis, and ultimately improving patient outcomes.
+
+## Code
+The `code` folder contains the source code for our mapping algorithm. To get started with the code, follow the installation instructions in the [Installation](#installation) section.
+
+## Data
+The `data` folder holds datasets and resources used in the mapping process. For detailed information about the data and its usage, refer to the [Data Documentation](data/README.md) within the `data` folder.
+
+## Documentation
+For comprehensive documentation, including technical details, data schemas, and usage guidelines, please explore our [full project documentation](documentation/README.md) located in the `documentation` folder.
