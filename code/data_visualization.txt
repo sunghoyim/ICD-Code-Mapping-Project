@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+  
+# Display only the first 10 labels in the legend
+limited_labels = count_by_code_percentage_sorted[:6]
+  
+# Plot the pie chart
+plt.figure(figsize=(5, 5))
+plt.pie(count_by_code_percentage_sorted, labels=count_by_code_percentage_sorted.index, autopct='')
+
+plt.title('Percentage of Unique Patients by Diagnosis Method Code')
+plt.legend (title="Legend", loc= "best")
+plt.axis ('equal')
+plt.legend (limited_labels, title="Legend", loc='upper left')
+  
+plt.show()
