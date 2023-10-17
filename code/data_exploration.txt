@@ -86,3 +86,39 @@ PNED 0.0
 DSM-IV-TR 0.0
 ICD-9-CM Ext-CP 0.0
 Name: NFER_PID, dtype: float64
+
+# *** It is best to keep the different ICD-9 and ICD-10 separately instead of combining them into 1 column, because they are not the same.
+# Some examples of the diagnosis code based on diagnosis method code:
+# ICD-10-CM:
+icd10cm_examples = joined_table[joined_table['DIAGNOSIS_METHOD_CODE'] == 'ICD-10-CM']['DIAGNOSIS_CODE'] .head (50) 
+print(icd10cm_examples)
+
+179 J47.9
+181 J34.89
+182 R07.89
+184 H25.12
+
+# First, convert Unix timestamps to datetime format:
+# DIAGNOSIS_DTM:
+joined_table['DIAGNOSIS_DTM'] = pd.to_datetime (joined_table['DIAGNOSIS_DTM'], unit='s')
+
+# Extract the date/time column
+timestamp_values_diagnosis = joined_table['DIAGNOSIS_DTM']
+
+# Calculate the min and max values
+min_date_diagnosis = timestamp_values_diagnosis.min()
+max_date_diagnosis = timestamp_values_diagnosis.max()
+
+print("Minimum date:", min_date_diagnosis) 
+print("Maximum date:", max_date_diagnosis)
+
+# Calculate the range in years
+date_range_years_diagnosis = (max_date_diagnosis - min_date_diagnosis).days / 365
+print("Data spans approximately", date_range_years_diagnosis, "years.")
+
+Minimum date: 1937-12-22 00:00:00
+Maximum date: 2022-12-28 00:00:00
+Data spans approximately 85.07397260273973 years.
+
+
+
