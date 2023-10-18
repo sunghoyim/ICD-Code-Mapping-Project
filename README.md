@@ -24,6 +24,7 @@ Our primary goal is to create an efficient mapping technique that bridges the ga
 ## Methodology
 ### Mapping Process
 ![Mapping Process](images/Mapping-process.png)
+
 Our approach involves the development of heuristics and guidelines for precise translations between different coding systems, such as SNOMED CT and ICD-10-CM. The mapping process takes into consideration different relationships between concepts, including one-to-one and many-to-one mappings.
 
 ### Leveraging UMLS for Mapping
