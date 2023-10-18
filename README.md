@@ -23,9 +23,9 @@ Our primary goal is to create an efficient mapping technique that bridges the ga
 
 ## Methodology
 ### Mapping Process
-![MCP Patient Data](images/MCP-patient-data.png)
-
 ![Diagnosis Dates](images/Diagnosis-dates.png)
+
+![MCP Patient Data](images/MCP-patient-data.png)
 
 ![Mapping Process](images/Mapping-process.png)
 
