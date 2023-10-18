@@ -62,6 +62,10 @@ This project was made possible by the collective efforts and support of these in
 
 Efficient disease code mapping is essential for propelling the field of healthcare informatics, enabling comprehensive data analysis, and ultimately improving patient outcomes.
 
+## Code
+
+The `code` folder contains the source code for our mapping algorithm.
+
 ## Data
 The `data` folder holds datasets and resources used in the mapping process. For detailed information about the data and its usage, refer to the [Data Documentation](data/README.md) within the `data` folder.
 
