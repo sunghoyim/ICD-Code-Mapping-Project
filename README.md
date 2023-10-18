@@ -24,6 +24,7 @@ Our primary goal is to create an efficient mapping technique that bridges the ga
 ## Methodology
 ### Mapping Process
 ![Mapping Process](images/Mapping-process.png)
+![MCP Patient Data](images/MCP-patient-data.png)
 
 Our approach involves the development of heuristics and guidelines for precise translations between different coding systems, such as SNOMED CT and ICD-10-CM. The mapping process takes into consideration different relationships between concepts, including one-to-one and many-to-one mappings.
 
@@ -31,6 +32,11 @@ Our approach involves the development of heuristics and guidelines for precise t
 The Unified Medical Language System (UMLS) plays a pivotal role in bridging concepts between ICD codes and SNOMED CT.
 
 ## Results
+![Conversion Process](images/Conversion-process.png)
+![ICD-10](images/ICD10.png)
+![ICD-9](images/ICD9.png)
+![SNOMED](images/SNOMED.png)
+
 Our research has successfully mapped a significant percentage of diagnosis codes to their respective Concept Unique Identifiers (CUIs), with only a small percentage of codes remaining unmapped.
 
 ### FuzzyWuzzy Algorithm
@@ -49,6 +55,8 @@ Zachary WareJoncas: I extend my sincere appreciation to Zachary WareJoncas, my s
 This project was made possible by the collective efforts and support of these individuals and organizations. I am truly grateful for their contributions to my professional growth and the advancement of healthcare informatics.
 
 ## Conclusion
+![Conclusion](images/Conclusion.png)
+
 Efficient disease code mapping is essential for propelling the field of healthcare informatics, enabling comprehensive data analysis, and ultimately improving patient outcomes.
 
 ## Code
