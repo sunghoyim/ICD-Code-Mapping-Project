@@ -3,6 +3,11 @@
 
 **Project Overview:** Welcome to the Healthcare Code Mapping Project conducted at Mayo Clinic Platform (MCP). Our mission is to bridge the gap between disease names and standardized codes, ultimately enhancing healthcare informatics.
 
+## Quick Links
+- [Official Mayo Clinic Staff Meeting Presentation](documentation/MayoClinic_StaffMeeting_Presentation.pptx) - This presentation was delivered at the Mayo Clinic staff meeting and provides a comprehensive overview of the project.
+
+- [Summary Poster](documentation/Summary_Poster.pptx) - This poster offers a brief summary of the project's key highlights and findings.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
