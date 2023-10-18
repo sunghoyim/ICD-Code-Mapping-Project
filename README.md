@@ -64,7 +64,8 @@ Efficient disease code mapping is essential for propelling the field of healthca
 
 ## Code
 
-The `code` folder contains the source code for our mapping algorithm.
+The `code` folder contains the code used in the mapping process. For detailed information about the code and its usage, refer to the [Code Documentation](code/README.md) within the `code` folder.
+
 
 ## Data
 The `data` folder holds datasets and resources used in the mapping process. For detailed information about the data and its usage, refer to the [Data Documentation](data/README.md) within the `data` folder.
