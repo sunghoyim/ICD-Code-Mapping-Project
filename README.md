@@ -17,11 +17,11 @@
 - [Methodology](#methodology)
 - [Results](#results)
 - [Discussion](#discussion)
-- [Acknowledgments](#acknowledgments)
 - [Conclusion](#conclusion)
 - [Code](#code)
 - [Data](#data)
 - [Documentation](#documentation)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 In the world of healthcare, accurate diagnosis codes are the cornerstone of patient cohort identification and data-driven decisions. Our project focuses on mapping a variety of diagnosis codes to simplify patient identification and streamline data analysis.
@@ -56,15 +56,6 @@ The use of the FuzzyWuzzy algorithm has allowed us to achieve highly accurate di
 ## Discussion
 Our research underscores the importance of bridging the gap between ICD codes and SNOMED CT through the Concept Unique Identifier (CUI). This approach empowers data-driven healthcare informatics.
 
-## Acknowledgments
-I would like to express my heartfelt gratitude to several individuals whose support and guidance have been instrumental in the success of this internship project.
-
-Nasibeh Zanjirani Farahani: I am deeply thankful to my mentor, Nasibeh Zanjirani Farahani, for her unwavering support, expert guidance, and invaluable insights throughout this project. Her mentorship has been a source of inspiration and a driving force behind the achievements of this research.
-
-Zachary WareJoncas: I extend my sincere appreciation to Zachary WareJoncas, my supervisor, for his constant encouragement, constructive feedback, and dedicated mentorship. His leadership and expertise have played a pivotal role in shaping the project's direction and outcomes.
-
-This project was made possible by the collective efforts and support of these individuals and organizations. I am truly grateful for their contributions to my professional growth and the advancement of healthcare informatics.
-
 ## Conclusion
 ![Conclusion](images/Conclusion.png)
 
@@ -80,3 +71,12 @@ The `data` folder holds datasets and resources used in the mapping process. For 
 
 ## Documentation
 For comprehensive documentation, please explore our [full project documentation](documentation/README.md) located in the `documentation` folder.
+
+## Acknowledgments
+I would like to express my heartfelt gratitude to several individuals whose support and guidance have been instrumental in the success of this internship project.
+
+Nasibeh Zanjirani Farahani: I am deeply thankful to my mentor, Nasibeh Zanjirani Farahani, for her unwavering support, expert guidance, and invaluable insights throughout this project. Her mentorship has been a source of inspiration and a driving force behind the achievements of this research.
+
+Zachary WareJoncas: I extend my sincere appreciation to Zachary WareJoncas, my supervisor, for his constant encouragement, constructive feedback, and dedicated mentorship. His leadership and expertise have played a pivotal role in shaping the project's direction and outcomes.
+
+This project was made possible by the collective efforts and support of these individuals and organizations. I am truly grateful for their contributions to my professional growth and the advancement of healthcare informatics.
