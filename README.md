@@ -5,7 +5,7 @@
 ![Introduction](images/Intro.png)
 
 ## Quick Links
-- [Official Mayo Clinic Staff Meeting Presentation](documentation/MayoClinic_StaffMeeting_Presentation.pptx) - This presentation was delivered at the Mayo Clinic staff meeting and provides a comprehensive overview of the project.
+- [Presentation](documentation/MayoClinic_StaffMeeting_Presentation.pptx) - This presentation provides a comprehensive overview of the project.
 
 - [Summary Poster](documentation/Summary_Poster.pptx) - This poster offers a brief summary of the project's key highlights and findings.
 
