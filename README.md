@@ -46,11 +46,6 @@ The Unified Medical Language System (UMLS) plays a pivotal role in bridging conc
 ![ICD-9](images/ICD9.png)
 ![SNOMED](images/SNOMED.png)
 
-Our research has successfully mapped a significant percentage of diagnosis codes to their respective Concept Unique Identifiers (CUIs), with only a small percentage of codes remaining unmapped.
-
-### FuzzyWuzzy Algorithm
-The use of the FuzzyWuzzy algorithm has allowed us to achieve highly accurate disease code mappings.
-
 ## Discussion
 Our research underscores the importance of bridging the gap between ICD codes and SNOMED CT through the Concept Unique Identifier (CUI). This approach empowers data-driven healthcare informatics.
 
