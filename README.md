@@ -10,12 +10,7 @@
 3. [Objectives](#objectives)
 4. [Methodology](#methodology)
 5. [Results](#results)
-6. [Discussion](#discussion)
-7. [Conclusion](#conclusion)
-8. [Code](#code)
-9. [Data](#data)
-10. [Documentation](#documentation)
-11. [Acknowledgments](#acknowledgments)
+6. [Conclusion](#conclusion)
 
 ## Introduction
 In the world of healthcare, accurate diagnosis codes are crucial for patient cohort identification and data-driven decisions. This project focuses on mapping various diagnosis codes to simplify patient identification and streamline data analysis.
@@ -30,7 +25,7 @@ The primary goal is to create an efficient mapping technique that bridges the ga
 ### Mapping Process
 ![Mapping Process](images/Mapping-process.png)
 
-Our approach involves developing heuristics and guidelines for precise translations between different coding systems, such as SNOMED CT and ICD-10-CM. The mapping process considers various relationships between concepts, including one-to-one and many-to-one mappings.
+My approach involves developing heuristics and guidelines for precise translations between different coding systems, such as SNOMED CT and ICD-10-CM. The mapping process considers various relationships between concepts, including one-to-one and many-to-one mappings.
 
 ### Leveraging UMLS for Mapping
 The Unified Medical Language System (UMLS) plays a pivotal role in bridging concepts between ICD codes and SNOMED CT.
@@ -43,27 +38,15 @@ The Unified Medical Language System (UMLS) plays a pivotal role in bridging conc
 
 ![Conversion Process](images/Conversion-process.png)
 
-## Discussion
-Our research underscores the importance of bridging the gap between ICD codes and SNOMED CT through the Concept Unique Identifier (CUI), empowering data-driven healthcare informatics.
-
 ## Conclusion
 ![Conclusion](images/Conclusion.png)
 
-Efficient disease code mapping is essential for propelling the field of healthcare informatics, enabling comprehensive data analysis, and ultimately improving patient outcomes.
+In wrapping up our exploration into healthcare informatics through disease code mapping, we've charted a course toward greater cohesion between disease names and standardized codes. Our journey aimed to address the pressing challenges encountered by start-up companies in constructing comprehensive patient cohorts, equipping healthcare practitioners and researchers with invaluable data-driven insights.
 
-## Code
-The `code` folder contains the code used in the mapping process. For detailed information about the code and its usage, refer to the [Code Documentation](code/README.md) within the `code` folder.
+Our meticulous methodology, incorporating the development of heuristics, guidelines, and leveraging the Unified Medical Language System (UMLS), has yielded a robust mapping technique capable of navigating the intricate landscape of coding systems. This technique, bolstered by the Concept Unique Identifier (CUI) and fostered by collaborative efforts with the Mayo Clinic Platform (MCP), signals a paradigm shift towards seamless integration and interoperability in healthcare data analytics.
 
-## Data
-The `data` folder holds datasets and resources used in the mapping process. For detailed information about the data and its usage, refer to the [Data Documentation](data/README.md) within the `data` folder.
+Our results speak volumes about the efficacy of our approach, showcasing successful translations of concepts between ICD codes and SNOMED CT. Though challenges persist, particularly in mapping certain codes, our project lays the groundwork for future endeavors, including clinical validation and transitioning to the Discover environment. Additionally, our envisioned mapping to the Observational Medical Outcomes Partnership (OMOP) data model promises to align our efforts with industry standards, facilitating broader adoption and interoperability.
 
-## Documentation
-For comprehensive documentation, please explore our [full project documentation](documentation/README.md) located in the `documentation` folder.
+By harnessing the power of computer science, we've not only developed innovative algorithms but also showcased the transformative potential of technologies like Python, SparkSQL, and data visualization tools. These skills, coupled with comprehensive documentation and clear communication, ensure the reproducibility and scalability of our data analysis processes, propelling the field of healthcare informatics forward.
 
-## Acknowledgments
-I express my heartfelt gratitude to several individuals whose support and guidance have been instrumental in the success of this internship project:
-
-- **Nasibeh Zanjirani Farahani**: My mentor, for her unwavering support, expert guidance, and invaluable insights throughout this project.
-- **Zachary WareJoncas**: My supervisor, for his constant encouragement, constructive feedback, and dedicated mentorship.
-
-This project was made possible by the collective efforts and support of these individuals and organizations. I am truly grateful for their contributions to my professional growth and the advancement of healthcare informatics.
+Reflecting on our journey, it becomes evident that efficient disease code mapping transcends technical endeavors; it opens doors to improved patient outcomes, informed decision-making, and transformative healthcare practices. Through collaboration, innovation, and an unwavering commitment to excellence, we stand poised to unlock new horizons in healthcare informatics, ushering in a future where data becomes a catalyst for positive change.
