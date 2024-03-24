@@ -4,6 +4,11 @@
 
 ![Introduction](images/Intro.png)
 
+## Quick Links
+- [Presentation](documentation/MayoClinic_StaffMeeting_Presentation.pptx) - This presentation provides a comprehensive overview of the project.
+
+- [Summary Poster](documentation/Summary_Poster.pptx) - This poster offers a brief summary of the project's key highlights and findings.
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Problem Statement](#problem-statement)
