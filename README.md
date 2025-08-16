@@ -28,7 +28,20 @@ I developed a Python-based automation tool that instantly converts disease names
 **Key Impact:** Mapped over 500,000 diagnosis codes with high accuracy, significantly reducing manual effort and improving cohort identification precision for clinical research teams.
 
 ## Problem Statement
-Start-up companies often face challenges in obtaining corresponding codes for disease names, impeding the construction of comprehensive patient cohorts. Diagnostic codes are essential tools in healthcare for identifying patient cohorts, facilitating research, and driving evidence-based decision-making. However, as the coding landscape has evolved, accurately mapping disease codes across different coding systems has become a significant challenge. In the context of the Mayo Clinic Platform (MCP), which collaborates with companies and health institutions to define cohorts, efficient disease code mapping is vital for expanding patient identification, regardless of the diagnostic coding system used.
+
+Healthcare startups partnering with Mayo Clinic Platform face a significant technical barrier: they possess disease names and medical keywords but lack the specialized knowledge to translate these into standardized diagnostic codes (ICD-10-CM, SNOMED CT) required for clinical database searches.
+
+**The Challenge:**
+- Startups spend hours manually researching code mappings
+- Incomplete or incorrect code selection leads to missed patients in cohort identification
+- Complex relationships between coding systems create translation errors
+- Manual processes don't scale for large research projects
+
+**Business Impact:**
+Without efficient code translation, partner organizations struggle to define comprehensive patient cohorts, delaying research timelines and potentially missing critical patient populations. This bottleneck limits the Mayo Clinic Platform's ability to support external partners effectively.
+
+**Technical Gap:**
+Existing mapping resources require deep medical coding expertise and don't provide automated, keyword-based search capabilities that non-expert users need for rapid cohort development.
 
 ## Technologies Used
 
