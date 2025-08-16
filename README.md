@@ -1,6 +1,6 @@
-# Unlocking the Potential of Healthcare Informatics through Disease Code Mapping
+# Medical Code Translation Tool for Patient Cohort Identification
 
-**Bridging the Gap Between Disease Names and Standardized Codes**
+**Automating disease name translation to standardized medical codes for clinical research**
 
 ![Introduction](images/Intro.png)
 
