@@ -52,7 +52,20 @@ Existing mapping resources require deep medical coding expertise and don't provi
 - **Jupyter Notebooks** - Analysis and development environment
 
 ## Objectives
-The primary goal is to create an efficient mapping technique that bridges the gap between disease names and standardized codes, thereby streamlining the process of identifying accurate and standardized codes. An algorithm will be developed to be deployed in MCP data to extract or find patients with any diagnosis code.
+
+**Primary Goal:** Develop an automated Python tool that translates disease names and keywords into comprehensive sets of standardized medical codes (ICD-10-CM, SNOMED CT).
+
+**Key Deliverables:**
+- Create a keyword-searchable reference table linking disease names to diagnosis codes
+- Build a scalable pipeline for processing 500,000+ medical codes
+- Enable instant code retrieval for Mayo Clinic Platform partners
+- Integrate with SparkSQL for patient cohort identification in clinical datasets
+- Deliver data visualizations showing patient distributions and diagnosis trends
+
+**Success Metrics:**
+- Achieve high mapping accuracy across major coding systems
+- Reduce manual code lookup time from hours to seconds
+- Deploy production-ready tool in Mayo Clinic Platform environment
 
 ## Methodology
 ### Mapping Process
