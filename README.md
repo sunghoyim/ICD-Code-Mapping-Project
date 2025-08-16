@@ -19,7 +19,13 @@
 7. [Future Work](#future-work)
 
 ## Introduction
-In the world of healthcare, accurate diagnosis codes are crucial for patient cohort identification and data-driven decisions. This project focuses on mapping various diagnosis codes to simplify patient identification and streamline data analysis.
+This project addresses a critical challenge faced by healthcare startups and researchers working with the Mayo Clinic Platform: translating disease names and keywords into standardized medical codes for accurate patient cohort identification.
+
+Healthcare startups often lack expertise in complex medical coding systems like ICD-10-CM and SNOMED CT, yet need these codes to search clinical databases effectively. Manual translation is time-consuming and error-prone, creating barriers to timely research and development.
+
+I developed a Python-based automation tool that instantly converts disease names into comprehensive sets of diagnosis codes, enabling faster and more accurate patient cohort discovery. The system processes keyword searches and returns all relevant standardized codes, streamlining the research workflow for Mayo Clinic Platform partners.
+
+**Key Impact:** Mapped over 500,000 diagnosis codes with high accuracy, significantly reducing manual effort and improving cohort identification precision for clinical research teams.
 
 ## Problem Statement
 Start-up companies often face challenges in obtaining corresponding codes for disease names, impeding the construction of comprehensive patient cohorts. Diagnostic codes are essential tools in healthcare for identifying patient cohorts, facilitating research, and driving evidence-based decision-making. However, as the coding landscape has evolved, accurately mapping disease codes across different coding systems has become a significant challenge. In the context of the Mayo Clinic Platform (MCP), which collaborates with companies and health institutions to define cohorts, efficient disease code mapping is vital for expanding patient identification, regardless of the diagnostic coding system used.
