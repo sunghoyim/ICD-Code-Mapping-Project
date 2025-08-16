@@ -2,6 +2,9 @@
 
 **Automating disease name translation to standardized medical codes for clinical research**
 
+## 📂 [View Code Implementation →](notebooks/)
+*Jupyter notebooks containing data analysis, mapping algorithms, and validation processes*
+
 ![Introduction](images/Intro.png)
 
 ## Table of Contents
