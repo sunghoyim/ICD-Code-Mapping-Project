@@ -66,9 +66,11 @@ Healthcare startups partnering with Mayo Clinic Platform possess disease names a
 
 ### Real-World Data Analysis
 ![MCP Patient Data](images/MCP-patient-data.png)
+
 *Mayo Clinic Platform patient analysis: 2.3 million unique patients with coding system distribution*
 
 ![Diagnosis Dates Distribution](images/Diagnosis-dates.png)
+
 *Patient diagnosis timeline spanning 87 years (1935-2023) showing data concentration in recent decades*
 
 ### Mapping Success Rates
