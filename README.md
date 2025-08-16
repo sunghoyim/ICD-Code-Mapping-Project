@@ -5,9 +5,9 @@
 ![Introduction](images/Intro.png)
 
 ## Presentation Links
-- [Presentation](documentation/MayoClinicPresentation.pdf) - This presentation provides a comprehensive overview of the project.
+- [Presentation](documentation/MayoClinicPresentation.pdf) - Full project overview and technical details
 
-- [Summary Poster](documentation/MayoClinicInternPoster.pdf) - This poster offers a brief summary of the project's key highlights and findings.
+- [Summary Poster](documentation/MayoClinicInternPoster.pdf) - Key highlights and findings
 
 ## Table of Contents
 1. [Introduction](#introduction)
