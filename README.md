@@ -46,6 +46,7 @@ Healthcare startups partnering with Mayo Clinic Platform possess disease names a
 - **Jupyter Notebooks** - Development and analysis environment
 
 ## Technical Implementation
+- **Quality Validation** - Similarity score analysis achieving 93.84% accuracy
 
 ### Architecture Overview
 ![Mapping Process](images/Mapping-process.png)
