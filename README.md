@@ -22,6 +22,9 @@ Automated Python tool that enables healthcare startups to instantly translate di
 
 **Business Impact:** Deployed in Mayo Clinic Platform environment, supporting analysis of 2.3 million patient records spanning 87 years (1935-2023) for external research partners.
 
+### Code Implementation
+The technical implementation is available in [`notebooks/`](notebooks/) containing Jupyter notebooks for data processing, CUI mapping, and patient cohort analysis.
+
 ## Problem Statement
 
 Healthcare startups partnering with Mayo Clinic Platform possess disease names and keywords but lack specialized knowledge to translate these into standardized diagnostic codes required for clinical database searches.
