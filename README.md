@@ -9,9 +9,10 @@
 2. [Problem Statement](#problem-statement)
 3. [Technologies Used](#technologies-used)
 4. [Technical Implementation](#technical-implementation)
-5. [Results & Impact](#results--impact)
-6. [Documentation](#documentation)
-7. [Future Work](#future-work)
+5. [Sample Data Analysis](#sample-data-analysis)
+6. [Results & Impact](#results--impact)
+7. [Documentation](#documentation)
+8. [Future Work](#future-work)
 
 ## Overview
 
@@ -62,15 +63,44 @@ Healthcare startups partnering with Mayo Clinic Platform possess disease names a
 3. **Reference Table Creation** - Build unified searchable database
 4. **Query Interface** - Enable keyword-based code retrieval
 
+## Sample Data Analysis
+
+### Patient Population Analysis
+```python
+# Analyze total unique patients across all coding systems
+unique_patients = joined_table['PATIENT_ID'].nunique()
+print(f"Total unique patients analyzed: {unique_patients:,}")
+# Output: 2,257,242 unique patients
+
+# Identify all available coding systems in the dataset
+available_systems = joined_table['DIAGNOSIS_METHOD_CODE'].unique()
+print(f"Available coding systems: {len(available_systems)}")
+# ['ICD9', 'ICD10', 'ICD-10-CM', 'ICD-9-CM', 'SNOMED CT', 'HIC', etc.]
+```
+
+### Coding System Distribution Analysis
+```python
+# Calculate patient counts by diagnosis method
+count_by_code = joined_table.groupby('DIAGNOSIS_METHOD_CODE')['PATIENT_ID'].nunique()
+count_by_code = count_by_code.sort_values(ascending=False)
+
+# Calculate percentages for distribution analysis
+count_by_code_percentage = (count_by_code / count_by_code.sum()) * 100
+
+# Top coding systems by patient coverage:
+# ICD-10-CM:    1,960,856 patients (40.4%)
+# ICD-9:          814,941 patients (16.8%) 
+# ICD-9-CM:       744,369 patients (15.3%)
+# SNOMED CT:      230,448 patients (4.7%)
+```
+
 ## Results & Impact
 
 ### Real-World Data Analysis
 ![MCP Patient Data](images/MCP-patient-data.png)
-
 *Mayo Clinic Platform patient analysis: 2.3 million unique patients with coding system distribution*
 
 ![Diagnosis Dates Distribution](images/Diagnosis-dates.png)
-
 *Patient diagnosis timeline spanning 87 years (1935-2023) showing data concentration in recent decades*
 
 ### Mapping Success Rates
