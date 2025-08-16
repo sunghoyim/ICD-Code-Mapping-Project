@@ -45,10 +45,10 @@ Existing mapping resources require deep medical coding expertise and don't provi
 
 ## Technologies Used
 
-- **Python** - Core development language
-- **SparkSQL** - Large-scale data processing
-- **UMLS (Unified Medical Language System)** - Medical concept mapping
-- **Data visualization tools** - Results presentation
+- **Python** - Core development language (pandas, numpy for data processing)
+- **SparkSQL** - Large-scale data processing and joins with patient data
+- **UMLS (Unified Medical Language System)** - Medical concept mapping via CUIs
+- **Data visualization libraries** - matplotlib/seaborn for charts and patient distribution analysis
 - **Jupyter Notebooks** - Analysis and development environment
 
 ## Objectives
