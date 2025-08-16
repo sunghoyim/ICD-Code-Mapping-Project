@@ -11,7 +11,6 @@ This directory contains Jupyter notebooks that implement the automated medical c
 | `icd9_cui_mapping.ipynb` | ICD-9 | International Classification of Diseases, 9th Revision |
 | `icd9cm_cui_mapping.ipynb` | ICD-9-CM | ICD-9 Clinical Modification (US variant) |
 | `snomedct_cui_mapping.ipynb` | SNOMED CT | Systematized Nomenclature of Medicine Clinical Terms |
-| `data_quality_validation.ipynb` | Quality Validation | Text similarity analysis for mapping accuracy assessment |
 | `patient_data_analysis.ipynb` | Patient Data Analysis | Exploration of 2.3M patient records across 87 years |
 
 ## Technical Process
